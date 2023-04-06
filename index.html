@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href=""><img src="Web UI/logo1.png" alt=""></a>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Recepies</a>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </section>
+    <div class="main-area" id="mainArea">
+        <div class="search-area">
+            <input class="input-area" id="input-text" type="text" placeholder="Enter First letter of your Food">
+            <button onclick="getLetter()" id="search-btn">Search</button>
+        </div>
+        <div class="food-area" id="foodArea">
+            <!-- <h3>Here Everyhing will be shown</h3> -->
+        </div>
+    </div>
+
+
+    <div id="foodDetails"></div>
+
+    <script src="app.js">
+    </script>
+
+</body>
+
+</html>
